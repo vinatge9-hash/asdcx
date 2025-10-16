@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:300,400,500,600,700&family=Roboto:300,400,500,600,700&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Momentum Gym - Classes</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root { --font-heading: ; --font-body: ; }
+  </style>
+</head>
+<body style="font-family: 'Montserrat', sans-serif;" class="bg-[#0B1020] text-[#E5E7EB]" style="font-family: ;">
+  <header class="w-full fixed top-0 left-0 z-20 bg-black/60 backdrop-blur">
+    <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-14 flex items-center justify-between">
+      <div class="text-white font-semibold" style="font-family: ;">Momentum Gym</div>
+      <ul class="hidden md:flex space-x-6 text-sm">
+        <li><a href="home.html" class="hover:text-[#F59E0B]">Home</a></li>
+        <li><a href="about.html" class="hover:text-[#F59E0B]">About</a></li>
+        <li><a href="classes.html" class="hover:text-[#F59E0B]">Classes</a></li>
+        <li><a href="trainers.html" class="hover:text-[#F59E0B]">Trainers</a></li>
+        <li><a href="schedule.html" class="hover:text-[#F59E0B]">Schedule</a></li>
+        <li><a href="pricing.html" class="hover:text-[#F59E0B]">Pricing</a></li>
+        <li><a href="locations.html" class="hover:text-[#F59E0B]">Locations</a></li>
+        <li><a href="blog.html" class="hover:text-[#F59E0B]">Blog</a></li>
+        <li><a href="contact.html" class="hover:text-[#F59E0B]">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="relative w-full" style="min-height: 40vh; margin-top: 4rem;">
+    <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(2,6,23,.6), rgba(2,6,23,.6));"></div>
+    <div class="relative z-10 h-full flex items-center" aria-label="Hero content">
+      <div class="max-w-5xl mx-auto px-6 py-20 text-left">
+        <h1 class="text-3xl md:text-4xl" style="font-family: ; font-weight: 700; color: #FFFFFF;">Group Classes</h1>
+        <p class="mt-2 text-lg" style="font-family: ; color: #EDEFF3; max-width: 720px;">A variety of classes for all levels.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Catalog and Filters -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 lg:grid-cols-3 gap-8">
+    <!-- Catalog (70%) -->
+    <section class="lg:col-span-2">
+      <div class="bg-[#111629] rounded-xl p-4 shadow-md border border-white/10">
+        <h3 class="text-xl mb-4" style="font-family: ; color: #EDEFF3;">Classes Catalog</h3>
+        <ul class="space-y-3">
+          <li class="flex justify-between items-center p-4 bg-[#0F162B] rounded-md border border-white/10">
+            <div>
+              <div style="font-family: ; font-weight: 600;">Foundations Strength</div>
+              <div style="font-family: ; color: #DDE3F7; font-size: 14px;">Beginner • 45 min</div>
+            </div>
+            <span class="text-sm" style="color: #94A3B8;">Beginner</span>
+          </li>
+          <li class="flex justify-between items-center p-4 bg-[#0F162B] rounded-md border border-white/10">
+            <div>
+              <div style="font-family: ; font-weight: 600;">HIIT Blast</div>
+              <div style="font-family: ; color: #DDE3F7; font-size: 14px;">All levels • 30 min</div>
+            </div>
+            <span class="text-sm" style="color: #94A3B8;">All</span>
+          </li>
+          <li class="flex justify-between items-center p-4 bg-[#0F162B] rounded-md border border-white/10">
+            <div>
+              <div style="font-family: ; font-weight: 600;">Yoga Flow</div>
+              <div style="font-family: ; color: #DDE3F7; font-size: 14px;">All levels • 60 min</div>
+            </div>
+            <span class="text-sm" style="color: #94A3B8;">All</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Filters (sidebar) -->
+    <aside class="lg:col-span-1">
+      <div class="bg-[#0F162B] rounded-xl p-4 shadow-md border border-white/10">
+        <h4 class="text-sm font-semibold" style="font-family: ; color: #EDEFF3;">Filters</h4>
+        <div class="mt-2">
+          <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#1E3A8A] text-white text-xs" style="font-family: ;">Strength</span>
+          <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#1E3A8A] text-white text-xs mt-2" style="font-family: ;">Cardio</span>
+          <span class="inline-flex items-center px-3 py-1 rounded-full bg-[#1E3A8A] text-white text-xs mt-2" style="font-family: ;">Mind-Body</span>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <!-- CTA -->
+  <section class="py-6">
+    <div class="flex items-center justify-center">
+      <a href="/pricing.html" class="px-6 py-3 rounded-md" style="background: #1E3A8A; color: #fff; font-family: ; font-weight: 600;">View Pricing</a>
+    </div>
+  </section>
+
+  <footer class="py-6 border-t mt-12" style="border-color: rgba(255,255,255,.08);">
+    <div class="text-center text-sm" style="color: #94A3B8;">© Momentum Gym</div>
+  </footer>
+</body>
+</html>
